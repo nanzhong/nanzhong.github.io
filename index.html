@@ -17,11 +17,10 @@ layout: default
           <div class="list-post-title">
             {{ post.title }}
           </div>
-          {% if post.description %}
-            <div class="list-post-desc">
-              {{ post.description }}
-            </div>
-          {% endif %}
+          <div class="list-post-desc">
+            {{ post.excerpt }}
+	    <div class="list-post-desc-more">More...</div>
+          </div>
         </a>
       </div>
     {% endfor %}
