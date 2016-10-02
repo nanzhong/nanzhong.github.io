@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  typeracer-stats
-date:   2016-04-20 04:00:32 -0400
+date:   2014-04-20 04:00:32 -0400
 tags:   [dvorak,typeracer]
 ---
 _Edit 2016-10-02: I haven't maintained this at all, so much of this is likely no longer correct or working_

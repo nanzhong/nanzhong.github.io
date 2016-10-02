@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Juniper Pulse VPN with Two-Factor Auth on Archlinux
-date:   2016-09-04 13:19:46 -0400
+date:   2014-09-04 13:19:46 -0400
 tags:   [linux,vpn,juniper-pulse]
 ---
 _Edit: Oct 2, 2016 - This is irrelevant now as [OpenConnect](https://wiki.archlinux.org/index.php/OpenConnect) is able to handle all of this in a very straightforward and easy way now_

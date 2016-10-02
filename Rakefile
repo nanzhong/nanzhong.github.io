@@ -9,7 +9,7 @@ task build: :clean do
 end
 
 desc 'deploy the site'
-task :deploy do
+task deploy: :build do
   syscall('rsync -vcrz --delete-after _site/ ssh.nine27.com:nine27.com')
 end
 
