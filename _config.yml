@@ -1,0 +1,37 @@
+title: nine27
+email: nan@nine27..com
+description: > 
+  Views on programming, tech, and life.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: http://nine27.com # the base hostname & protocol for your site
+timezone: America/Toronto
+permalink: /:year-:month-:day/:title/
+
+gems:
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+theme: nine27-theme
+
+# Theme specific
+author:
+  name: Nan Zhong
+  github: nanzhong
+
+google-analytics:
+  id: UA-25095068-1
+  
+disqus:
+  id: nine27.disqus.com
+
+add-this:
+  id: ra-50b3b21426f614c0
+
+nav:
+  - name: "About"
+    url: "/about/"
+  - name: "Archive"
+    url: "/archive/"
+  - name: "Tags"
+    url: "/tags/"
