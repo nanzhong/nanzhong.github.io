@@ -199,7 +199,7 @@ to do a quick sync (skip syncing the flags on emails).
 
 In my configuration I've set up postsync hooks for my accounts so that I can be notified of any new email that has been synced. For example, the postsync script for my personal account looks like:
 
-{% highlight sh %}
+{% highlight sh linenos %}
 #!/bin/sh
 
 # Count new mail for every maildir
@@ -225,7 +225,7 @@ brew install msmtp
 
 msmtp looks for its configuration at `~/.msmtprc`, and it is pretty straightforward to configure. My configuration with annotated comments where things are not self-explanatory is as follows:
 
-{% highlight sh %}
+{% highlight sh linenos %}
 account nine27
 host smtp.gmail.com
 port 587
@@ -281,7 +281,7 @@ mu is pretty fast at doing this, but this might still take some time depending o
 
 Now all that is left is to configure your emacs. A quick disclaimer, much of this config uses pieces that have been written by others, and I definitely don't claim to be using mu4e anywhere close to its full potential. My configuration only scratches the surface of the possible customizability (it's pretty incredible that even at this state the user experience is so great), but the following is my configuration with annotations where things are not self-explanatory:
 
-{% highlight elisp %}
+{% highlight elisp linenos %}
 ;;; mu.el --- mu email config
 
 (use-package mu4e
