@@ -19,7 +19,11 @@ layout: default
           </div>
           <div class="list-post-desc">
             {{ post.excerpt }}
-	    <div class="list-post-desc-more">More...</div>
+            <div class="list-post-desc-more">
+              <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+                More...
+              </a>
+            </div>
           </div>
         </a>
       </div>

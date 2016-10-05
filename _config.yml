@@ -1,7 +1,7 @@
 title: nine27
 email: nan@nine27..com
 description: > 
-  Thoughts on programming, tech, and life.
+  programming, tech, life
 baseurl: ''
 url: http://nine27.com
 timezone: America/Toronto
@@ -14,6 +14,7 @@ gems:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: nine27-theme
 
 # Theme specific
