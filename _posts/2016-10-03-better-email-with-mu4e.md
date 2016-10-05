@@ -82,6 +82,8 @@ accounts = nine27, do
 fsync = false
 # This is the path to the aforementioned python environment that will be used.
 pythonfile = ~/.offlineimap.py
+# This helps prevent offlineimap hanging when network connection is lost.
+socktimeout = 60
 
 # This is the account definition for my first account, 
 # note the name matching that in the accounts list in [general].
@@ -181,7 +183,7 @@ For those of you not familiar with syncing mail between a local maildir and a re
 - run offlineimap without the `-o` flag and configuring it to sync periodically via the `autorefresh` config option
 - use something else like `launchd` or `cron` to periodically sync
 
-I don't recommend using `autorefresh` mostly because offlineimap has a tendency to randomly hang; it happens especially often when you lose/regain internet connectivity (which happens all the time if you are on a laptop). This is pretty annoying because you are left thinking you have no new mail, when instead it's offlineimap not behaving. Running it periodically more or less relieved this issue for me.
+I don't recommend using `autorefresh` mostly because offlineimap has a tendency to randomly hang; it happens especially often when you lose/regain internet connectivity (which happens all the time if you are on a laptop). This is pretty annoying because you are left thinking you have no new mail, when instead it's offlineimap not behaving. Running it periodically and specifying a `socktimeout` value more or less relieved this issue for me.
 
 Some other useful command line flags for offlineimap are:
 
