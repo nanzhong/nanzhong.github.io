@@ -1,14 +1,12 @@
-title: nine27
-email: nan@nine27..com
+title: NaN
+email: nan@notanumber.io
 description: > 
   programming, tech, life
 baseurl: ''
-url: http://nine27.com
+url: https://notanumber.io
 timezone: America/Toronto
 permalink: /:year-:month-:day/:title/
 paginate: 5
-exclude:
-  - Rakefile
 
 gems:
   - jekyll-seo-tag
@@ -25,10 +23,10 @@ author:
   github: nanzhong
 
 google-analytics:
-  id: UA-25095068-1
-  
+  id: UA-88257352-1
+
 disqus:
-  id: nine27.disqus.com
+  id: not-a-number.disqus.com
 
 add-this:
   id: ra-50b3b21426f614c0
