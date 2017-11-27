@@ -1,0 +1,13 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
+  {% seo %}
+
+  {% include google-analytics.html %}
+  {% include add-this.html %}
+</head>

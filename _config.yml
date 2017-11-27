@@ -8,14 +8,13 @@ timezone: America/Toronto
 permalink: /:year-:month-:day/:title/
 paginate: 5
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: jekyll-nan-theme
 
 # Theme specific
 author:

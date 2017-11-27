@@ -1,0 +1,14 @@
+<header class="header-small">
+  <h1 class="header-small">
+    <a href="{{ site.url }}">{{ site.title }}</a>
+    {% for nav in site.nav %}
+      <small>
+        {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+          <a href="{{ nav.url }}">{{ nav.name }}</a>
+        {% else %}
+          <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+        {% endif %}
+      </small>
+    {% endfor %}
+  </h1>
+</header>
