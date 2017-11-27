@@ -1,7 +1,7 @@
 title: NaN
 email: nan@notanumber.io
 description: > 
-  programming, tech, life
+  programming, tech, photography, life
 baseurl: ''
 url: https://notanumber.io
 timezone: America/Toronto
@@ -15,7 +15,7 @@ gems:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: nine27-theme
+theme: jekyll-nan-theme
 
 # Theme specific
 author:
