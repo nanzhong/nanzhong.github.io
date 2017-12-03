@@ -7,6 +7,7 @@ url: https://notanumber.io
 timezone: America/Toronto
 permalink: /:year-:month-:day/:title/
 paginate: 5
+excerpt_separator: <!--more-->
 
 plugins:
   - jekyll-seo-tag
@@ -23,6 +24,9 @@ highlighter: rouge
 author:
   name: Nan Zhong
   github: nanzhong
+  500px: notanumber
+  twitter: nanzhong
+  linkedin: nine27
 
 google-analytics:
   id: UA-88257352-1

@@ -9,6 +9,8 @@ _Edit: Dec 4, 2014 - Updated for jre 8_
 
 Recently at [work](http://digitalocean.com), we switched from openvpn to Juniper VPN, and I had quite the experience trying to get it working on Arch Linux. Hopefully this guide can save some of you guys a good day's worth of headache.
 
+<!--more-->
+
 Depending on the policy configuration of your company/organization, setting up Juniper can be reasonably straightforward or very hackish. If your organization does not require you to login through the browser (eg. simple username/password auth), then you can use the `jnc` or `msjnc` command line tools to connect directly; the [archwiki](https://wiki.archlinux.org) has a [great article](https://wiki.archlinux.org/index.php/Juniper_VPN) that walks through the steps for getting that setup.
 
 If your organization employs some sort of two-factor authentication, then the command line tools are a no-go and you will need to get the browser applet `network_connect` working. On the surface this seems pretty straight-forward but the problem is that it expects that you are running Red Hat, another rpm based distro (Juniper provides a rpm package), or a debian based distro (expects the `dpkg` based `update-alternatives` to be present). 

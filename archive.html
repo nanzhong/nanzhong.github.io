@@ -1,0 +1,24 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+---
+<ul class="archive-list">
+  {% if site.posts.size == 0 %}
+    <p>No post found</p>
+  {% else %}
+    {% for post in site.posts %}
+      <li class="archive-list-item">
+        <a href="{{ post.url | relative_url }}">
+          <span class="archive-list-item-title">
+            {{ post.title }}
+          </span>
+          <span class="archive-list-item-date">
+            <time>| {{ post.date | date_to_string }}</time>
+          </span>
+        </a>
+        {% include tag-list.html tags=post.tags %}
+      </li>
+    {% endfor %}
+  {% endif %}
+</ul>

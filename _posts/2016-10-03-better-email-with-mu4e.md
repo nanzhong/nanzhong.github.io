@@ -6,6 +6,8 @@ tags:   [emacs, email, mu4e]
 ---
 I've never been a big fan of email, but at this point, it's so ingrained into the day to day of every profession that the only thing one can do is conform. I used gmail ever since it was introduced by Google in 2004, and I have to admit that out of all the free email providers, it's pretty great. Sure its UI has had its ups and downs, and it has been the centre of some controversy with the scanning of emails for advertisements, but the feature set it provides is hard to argue against, but it also has its shortcomings.
 
+<!--more-->
+
 When the amount of email you receive starts to encroach on unmanageable territory, you start realizing that:
 
 - the UI becomes very cumbersome

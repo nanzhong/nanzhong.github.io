@@ -10,6 +10,8 @@ Typing, keyboards, and ergonomics have been my latest obsession, and it has been
 
 These past few weeks I've progressed as a Dvorak typist (albeit much slower than I had hoped), and besides practice from typing as part of my daily work, [typeracer.com](http://typeracer.com) has been a large part of this. 
 
+<!--more-->
+
 Typeracer is great practice. By breaking down the typing practice into short bursts of high concentration, I feel like it provides a good balance of allowing you to build muscle memory without getting overly strained or frustrated. However it does have its limitations. Copying text is much easier than writing text; I find that not having to think about what you have to type next allows me to almost blank out my mind, and in this state my accuracy and typing speed is higher than when I normally type. Nonetheless, typeracer's pretty great and adding in gamification definietly makes it more fun than other typing practice tools I've tried lately.
 
 One thing that I feel that is really lacking from typeracer is meaningful statistics (or at least stats that I was able to find on the site). As a person who's actively trying to improve, I really want to know what my progress looks like. Out of the box, typeracer has support for exporting race history as a csv file (full history if you are a premium member), and it also shows your race history per race in a nice little graph, if you have typed the same race multiple times. Unfortunately, having to parse a csv file is no fun, and with the large selection of different texts for races you won't really have too much history to view per race unless you've already spent a very large amount of time on the game.

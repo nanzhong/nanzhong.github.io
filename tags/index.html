@@ -22,31 +22,26 @@ permalink: /tags/
   {% endif %}
 {% endfor %}
 
-<ul>
-  {% for tag in tags %}
-    <li class="tag-index">
-      <a href="#{{ tag | slugify }}">
-        <span>{{ tag }}</span>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="tags">
+  {% include tag-list.html tags=tags %}
+</div>
 
 {% for tag in tags %}
-  <article>
-    <div class="tag-title" id="{{ tag }}">
-      {{ tag }}
-    </div>
-    <ul>
-      {% for post in site.posts %}
-        {% if post.tags contains tag %}
-          <li class="tag-post">
-            <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
-              <span class="tag-post-title">{{ post.title }}</span>
-            </a>
+  <h2 class="tag-title" id="{{ tag }}">{{ tag }}</h2>
+  <ul class=tagged-list>
+    {% for post in site.posts %}
+      {% if post.tags contains tag %}
+        <li class="tagged-list-item">
+          <a href="{{ post.url | relative_url }}">
+            <span class="tagged-list-item-title">
+              {{ post.title }}
+            </span>
+            <span class="tagged-list-item-date">
+              <time>| {{ post.date | date_to_string }}</time>
+            </span>
+          </a>
         </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </article>
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endfor %}

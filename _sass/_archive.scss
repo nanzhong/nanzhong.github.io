@@ -1,0 +1,21 @@
+.archive-list {
+  .archive-list-item {
+    .archive-list-item-title {
+      font-size: 2.0rem;
+    }
+
+    .archive-list-item-date {
+      font-size: 1.6rem;
+    }
+
+    .tag-list {
+      list-style: none;
+      margin: 0 0 0 2rem;
+      padding: 0;
+
+      .tag-list-item {
+        display: inline-block;
+      }
+    }
+  }
+}

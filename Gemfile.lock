@@ -1,3 +1,8 @@
+PATH
+  remote: ../jekyll-theme-nan
+  specs:
+    jekyll-theme-nan (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -237,6 +242,7 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1.0)
   jekyll-remote-theme (~> 0.2.3)
   jekyll-seo-tag (~> 2.3.0)
+  jekyll-theme-nan!
 
 RUBY VERSION
    ruby 2.4.2p198
