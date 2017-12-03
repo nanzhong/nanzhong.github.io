@@ -11,6 +11,9 @@ paginate: 5
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-remote-theme
+
+remote_theme: nanzhong/jekyll-theme-nan
 
 # Build settings
 markdown: kramdown
