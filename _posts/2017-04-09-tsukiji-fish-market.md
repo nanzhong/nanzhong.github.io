@@ -6,7 +6,7 @@ tags: [photos, travel, japan, tokyo]
 ---
 ![Tsukiji Fish Market](https://nan.nyc3.digitaloceanspaces.com/notanumber.io/posts/2017-04-09-tsukiji-fish-market/9I3A1002.jpg)
 
-One of the most eye opening things I did while I was in Japan, was the morning that I spent exploring the Tsukiji Fish Market. As the world's largest wholsesale fish and seafood market it's definitely one of a kind.
+One of the most eye opening things I did while I was in Japan was the morning that I spent exploring the Tsukiji Fish Market. As the world's largest wholsesale fish and seafood market it's definitely one of a kind.
 
 <!--more-->
 
