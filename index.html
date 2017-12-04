@@ -5,12 +5,12 @@ layout: default
   {% for post in paginator.posts %}
     <li class="post-list-item">
       <div class="post-list-item-header">
-        <small class="date float-right">{{ post.date | date: "%B %-d, %Y" }}</small>
         <h1>
           <a href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
           </a>
         </h1>
+        <small class="date">{{ post.date | date: "%B %-d, %Y" }}</small>
       </div>
       <div class="clearfix"></div>
       <div class="post-list-item-body">
