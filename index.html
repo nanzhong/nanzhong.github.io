@@ -23,15 +23,15 @@ layout: default
               More...
             </a>
           </small>
+          <span class="post-list-item-read-time">
+            {% capture words %}
+              {{ post.content | number_of_words }}
+            {% endcapture %}
+            {% unless words contains "-" %}
+              {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
+            {% endunless %}
+          </span>
         {% endif %}
-        <span class="post-list-item-read-time">
-          {% capture words %}
-            {{ post.content | number_of_words }}
-          {% endcapture %}
-          {% unless words contains "-" %}
-            {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
-          {% endunless %}
-        </span>
         {% include tag-list.html tags=post.tags %}
       </div>
     </li>
