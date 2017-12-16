@@ -3,6 +3,10 @@ layout: post
 title: Workaround for webcam in Safari on High Sierra for Google Hangouts
 date: 2017-12-16 10:05:54 -0500
 tags: [macos]
+
+twitter:
+  card: summary_large_image
+  image: https://nan.nyc3.digitaloceanspaces.com/notanumber.io/posts/2017-12-16-workaround-for-webcam-in-safari-on-high-sierra-for-google-hangouts/hangouts-workaround.gif
 ---
 ![Hangouts workaround for Safari on High Sierra](https://nan.nyc3.digitaloceanspaces.com/notanumber.io/posts/2017-12-16-workaround-for-webcam-in-safari-on-high-sierra-for-google-hangouts/hangouts-workaround.gif)
 
