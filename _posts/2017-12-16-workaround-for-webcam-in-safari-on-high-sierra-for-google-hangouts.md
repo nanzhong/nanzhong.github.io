@@ -6,9 +6,9 @@ tags: [macos]
 
 twitter:
   card: summary_large_image
-  image: https://nan.nyc3.digitaloceanspaces.com/notanumber.io/posts/2017-12-16-workaround-for-webcam-in-safari-on-high-sierra-for-google-hangouts/hangouts-workaround-twitter.gif
+  image: https://notanumber.io/assets/2017-12-16-workaround-for-webcam-in-safari-on-high-sierra-for-google-hangouts/hangouts-workaround-twitter.gif
 ---
-![Hangouts workaround for Safari on High Sierra](https://nan.nyc3.digitaloceanspaces.com/notanumber.io/posts/2017-12-16-workaround-for-webcam-in-safari-on-high-sierra-for-google-hangouts/hangouts-workaround.gif)
+![Hangouts workaround for Safari on High Sierra](/assets/2017-12-16-workaround-for-webcam-in-safari-on-high-sierra-for-google-hangouts/hangouts-workaround-twitter.gif)
 
 I switched over to using Safari about a year ago because I was fed up with Chrome draining my battery, and I also really wanted to make use of the integration with iOS that lets me sync up browsing history and hand off what I was reading on my phone. But ever since I upgraded to High Sierra, the integrated webcam on my MacBook Pro stopped working with hangouts, and since I rely so heavily on Hangouts for work, it meant I had to start up Chrome just to use Hangouts. The way it fails also feels super trolly; the green light indicating that the webcam ss being used lights up, but there's just no video output... This was annoying me to no end.
 
