@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DigitalOcean at KubeCon/CloudNativeCon 2017
+title: DigitalOcean at KubeCon + CloudNativeCon 2017
 date: 2017-12-06 22:17:13 -0600
 tags: [photos, travel, tech, kubernetes, cncf]
 ---
