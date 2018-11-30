@@ -1,0 +1,63 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: notanumber
+data:
+  nginx.conf: |
+    server {
+      location / {
+        proxy_pass http://notanumber.nyc3-static.digitaloceanspaces.com;
+      }
+    }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notanumber
+spec:
+  selector:
+    matchLabels:
+      app: notanumber
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: notanumber
+    spec:
+      containers:
+        - name: notanumber
+          image: nginx:1.15.5
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: nginx-conf
+              mountPath: /etc/nginx/conf.d
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 5
+      volumes:
+        - name: nginx-conf
+          configMap:
+            name: notanumber
+            items:
+              - key: nginx.conf
+                path: notanumber.conf
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: notanumber
+  annotations:
+    service.beta.kubernetes.io/do-loadbalancer-protocol: "http"
+spec:
+  type: LoadBalancer
+  selector:
+    app: notanumber
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80

@@ -9,6 +9,9 @@ permalink: /:year-:month-:day/:title/
 paginate: 5
 excerpt_separator: <!--more-->
 
+twitter:
+  username: nanzhong
+
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
@@ -47,4 +50,5 @@ nav:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - notanumber.k8s.yml
   - .deploy.yml
